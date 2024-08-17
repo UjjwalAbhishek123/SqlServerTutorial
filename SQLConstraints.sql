@@ -43,5 +43,7 @@ Bloc char(40)
 
 insert into Branches Values(1021, 'SBI', 'Srinagar')
 insert into Branches Values(1022, 'SBI', 'LaxmiSagar')
+insert into Branches Values(1023, 'SBI', null)
+--insert into Branches Values(null, 'SBI', 'LaxmiSagar') --not allowed
 
 select * from Branches
